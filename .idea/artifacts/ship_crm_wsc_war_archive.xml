@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ship-crm-wsc:war archive">
+    <output-path>$PROJECT_DIR$/../ship-crm-wsc/out/artifacts/ship_crm_wsc_war_archive</output-path>
+    <root id="archive" name="ship-crm-wsc_war archive.war">
+      <element id="artifact" artifact-name="ship-crm-wsc:war" />
+    </root>
+  </artifact>
+</component>

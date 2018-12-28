@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ship-crm-wsc:war">
+    <output-path>$PROJECT_DIR$/../ship-crm-wsc/out/artifacts/ship_crm_wsc_war</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ship-crm-wsc/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ship-crm-wsc" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="enterprise" />
+          <element id="library" level="project" name="force-wsc-45.0.0" />
+          <element id="library" level="project" name="sf_erp" />
+          <element id="library" level="project" name="JAX-WS-Apache Axis" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
