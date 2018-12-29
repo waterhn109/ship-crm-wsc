@@ -35,7 +35,7 @@ public class ship_wsc {
         String request_body = request_bodyb+request_bodye;
         request_body = request_body.replace("\\\"","\"");
         request_body = request_body.replaceAll("\r|\n","");
-        String response = "";
+        String response = "<Response><Execution><Status code=\\\"-1\\\" sqlcode=\\\"1\\\" description=\\\"没有收到返回值\\\" /></Execution></Response>";
         if(api_from.equals("sf"))
         {
             ConnectorConfig config = new ConnectorConfig();
@@ -141,6 +141,8 @@ public class ship_wsc {
 
         response = response.replace("\\\"","\"");
         response = response.replaceAll("\r|\n","");
+        response = response.replace("<![CDATA[","");
+        response = response.replace("]]>","");
         response = response.replace("&lt;", '<' + "");
         response = "<![CDATA["+response+"]]>";
         return response;
