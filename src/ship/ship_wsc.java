@@ -12,6 +12,10 @@ import com.sforce.soap.enterprise.DeleteResult;
        import com.sforce.ws.ConnectorConfig;
 import com.sp.HttpYzEctestQjcloudsComWsdlApiProduct_updateLocator;
 import com.sp.HttpYzEctestQjcloudsComWsdlApiProduct_updatePort_PortType;
+import com.sp1.HttpYzEctestQjcloudsComWsdlApiCustomer_updateLocator;
+import com.sp1.HttpYzEctestQjcloudsComWsdlApiCustomer_updatePort_PortType;
+import com.sp2.HttpYzEctestQjcloudsComWsdlApiOrder_updateLocator;
+import com.sp2.HttpYzEctestQjcloudsComWsdlApiOrder_updatePort_PortType;
 
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
@@ -97,6 +101,7 @@ public class ship_wsc {
 
             } catch (ConnectionException e1) {
                 e1.printStackTrace();
+                response = "<Response><Execution><Status code=\"-1\" sqlcode=\"1\" description=\""+e1.getLocalizedMessage()+"\" /></Execution></Response>";
             }
 
 
@@ -104,34 +109,151 @@ public class ship_wsc {
 
         }else if(api_from.equals("sp"))
         {
-            try {
-                HttpYzEctestQjcloudsComWsdlApiProduct_updateLocator sp_locator = new HttpYzEctestQjcloudsComWsdlApiProduct_updateLocator();
-                HttpYzEctestQjcloudsComWsdlApiProduct_updatePort_PortType sp_wsc = sp_locator.getHttpYzEctestQjcloudsComWsdlApiProduct_updatePort();
+
+
                 switch (api_name.toString())
                 {
                     //产品
                     case "upsertProduct":
+                        try {
+                            HttpYzEctestQjcloudsComWsdlApiProduct_updateLocator sp_locator = new HttpYzEctestQjcloudsComWsdlApiProduct_updateLocator();
+                            HttpYzEctestQjcloudsComWsdlApiProduct_updatePort_PortType sp_wsc = sp_locator.getHttpYzEctestQjcloudsComWsdlApiProduct_updatePort();
                         response = sp_wsc.product_update(request_body);
+                        } catch ( javax.xml.rpc.ServiceException  e1) {
+                            e1.printStackTrace();
+                            response = "<Response><Execution><Status code=\"-1\" sqlcode=\"1\" description=\""+e1.getLocalizedMessage()+"\" /></Execution></Response>";
+                        }
+                        catch (java.rmi.RemoteException e2)
+                        {
+                            e2.printStackTrace();
+                            response = "<Response><Execution><Status code=\"-1\" sqlcode=\"1\" description=\""+e2.getLocalizedMessage()+"\" /></Execution></Response>";
+                        }
                         break;
                     //产品价格
                     case "upsertProductPrice":
-                        response = sp_wsc.product_price_update(request_body);
+                        try {
+                            HttpYzEctestQjcloudsComWsdlApiProduct_updateLocator sp_locator = new HttpYzEctestQjcloudsComWsdlApiProduct_updateLocator();
+                            HttpYzEctestQjcloudsComWsdlApiProduct_updatePort_PortType sp_wsc = sp_locator.getHttpYzEctestQjcloudsComWsdlApiProduct_updatePort();
+                            response = sp_wsc.product_price_update(request_body);
+                        } catch ( javax.xml.rpc.ServiceException  e1) {
+                            e1.printStackTrace();
+                            response = "<Response><Execution><Status code=\"-1\" sqlcode=\"1\" description=\""+e1.getLocalizedMessage()+"\" /></Execution></Response>";
+                        }
+                        catch (java.rmi.RemoteException e2)
+                        {
+                            e2.printStackTrace();
+                            response = "<Response><Execution><Status code=\"-1\" sqlcode=\"1\" description=\""+e2.getLocalizedMessage()+"\" /></Execution></Response>";
+                        }
+
+                        break;
+                    //客户
+                    case "upsertAccount":
+                        try {
+                            HttpYzEctestQjcloudsComWsdlApiCustomer_updateLocator sp_locator = new HttpYzEctestQjcloudsComWsdlApiCustomer_updateLocator();
+                            HttpYzEctestQjcloudsComWsdlApiCustomer_updatePort_PortType sp_wsc = sp_locator.getHttpYzEctestQjcloudsComWsdlApiCustomer_updatePort();
+                            response = sp_wsc.customer_update(request_body);
+                        } catch ( javax.xml.rpc.ServiceException  e1) {
+                            e1.printStackTrace();
+                            response = "<Response><Execution><Status code=\"-1\" sqlcode=\"1\" description=\""+e1.getLocalizedMessage()+"\" /></Execution></Response>";
+                        }
+                        catch (java.rmi.RemoteException e2)
+                        {
+                            e2.printStackTrace();
+                            response = "<Response><Execution><Status code=\"-1\" sqlcode=\"1\" description=\""+e2.getLocalizedMessage()+"\" /></Execution></Response>";
+                        }
+
+                        break;
+                    //订单
+                    case "upsertOrder":
+                        try {
+                            HttpYzEctestQjcloudsComWsdlApiOrder_updateLocator sp_locator = new HttpYzEctestQjcloudsComWsdlApiOrder_updateLocator();
+                            HttpYzEctestQjcloudsComWsdlApiOrder_updatePort_PortType sp_wsc = sp_locator.getHttpYzEctestQjcloudsComWsdlApiOrder_updatePort();
+                            response = sp_wsc.order_update(request_body);
+                        } catch ( javax.xml.rpc.ServiceException  e1) {
+                            e1.printStackTrace();
+                            response = "<Response><Execution><Status code=\"-1\" sqlcode=\"1\" description=\""+e1.getLocalizedMessage()+"\" /></Execution></Response>";
+                        }
+                        catch (java.rmi.RemoteException e2)
+                        {
+                            e2.printStackTrace();
+                            response = "<Response><Execution><Status code=\"-1\" sqlcode=\"1\" description=\""+e2.getLocalizedMessage()+"\" /></Execution></Response>";
+                        }
+                        break;
+
+                    //出货单新增
+                    case "upsertShipmentadd":
+                        try {
+                            HttpYzEctestQjcloudsComWsdlApiOrder_updateLocator sp_locator = new HttpYzEctestQjcloudsComWsdlApiOrder_updateLocator();
+                            HttpYzEctestQjcloudsComWsdlApiOrder_updatePort_PortType sp_wsc = sp_locator.getHttpYzEctestQjcloudsComWsdlApiOrder_updatePort();
+                            response = sp_wsc.order_delivery_add(request_body);
+                        } catch ( javax.xml.rpc.ServiceException  e1) {
+                            e1.printStackTrace();
+                            response = "<Response><Execution><Status code=\"-1\" sqlcode=\"1\" description=\""+e1.getLocalizedMessage()+"\" /></Execution></Response>";
+                        }
+                        catch (java.rmi.RemoteException e2)
+                        {
+                            e2.printStackTrace();
+                            response = "<Response><Execution><Status code=\"-1\" sqlcode=\"1\" description=\""+e2.getLocalizedMessage()+"\" /></Execution></Response>";
+                        }
+                        break;
+
+                        //出货单删除或者修改
+                    case "upsertShipment":
+                        try {
+                            HttpYzEctestQjcloudsComWsdlApiOrder_updateLocator sp_locator = new HttpYzEctestQjcloudsComWsdlApiOrder_updateLocator();
+                            HttpYzEctestQjcloudsComWsdlApiOrder_updatePort_PortType sp_wsc = sp_locator.getHttpYzEctestQjcloudsComWsdlApiOrder_updatePort();
+                            response = sp_wsc.order_delivery_update(request_body);
+                        } catch ( javax.xml.rpc.ServiceException  e1) {
+                            e1.printStackTrace();
+                            response = "<Response><Execution><Status code=\"-1\" sqlcode=\"1\" description=\""+e1.getLocalizedMessage()+"\" /></Execution></Response>";
+                        }
+                        catch (java.rmi.RemoteException e2)
+                        {
+                            e2.printStackTrace();
+                            response = "<Response><Execution><Status code=\"-1\" sqlcode=\"1\" description=\""+e2.getLocalizedMessage()+"\" /></Execution></Response>";
+                        }
+                        break;
+                    //销退单新增
+                    case "upsertReturnOrderadd":
+                        try {
+                            HttpYzEctestQjcloudsComWsdlApiOrder_updateLocator sp_locator = new HttpYzEctestQjcloudsComWsdlApiOrder_updateLocator();
+                            HttpYzEctestQjcloudsComWsdlApiOrder_updatePort_PortType sp_wsc = sp_locator.getHttpYzEctestQjcloudsComWsdlApiOrder_updatePort();
+                            response = sp_wsc.order_refund_add(request_body);
+                        } catch ( javax.xml.rpc.ServiceException  e1) {
+                            e1.printStackTrace();
+                            response = "<Response><Execution><Status code=\"-1\" sqlcode=\"1\" description=\""+e1.getLocalizedMessage()+"\" /></Execution></Response>";
+                        }
+                        catch (java.rmi.RemoteException e2)
+                        {
+                            e2.printStackTrace();
+                            response = "<Response><Execution><Status code=\"-1\" sqlcode=\"1\" description=\""+e2.getLocalizedMessage()+"\" /></Execution></Response>";
+                        }
+                        break;
+                        //销退单删除或者修改
+                    case "upsertReturnOrder":
+                        try {
+                            HttpYzEctestQjcloudsComWsdlApiOrder_updateLocator sp_locator = new HttpYzEctestQjcloudsComWsdlApiOrder_updateLocator();
+                            HttpYzEctestQjcloudsComWsdlApiOrder_updatePort_PortType sp_wsc = sp_locator.getHttpYzEctestQjcloudsComWsdlApiOrder_updatePort();
+                            response = sp_wsc.order_refund_update(request_body);
+                        } catch ( javax.xml.rpc.ServiceException  e1) {
+                            e1.printStackTrace();
+                            response = "<Response><Execution><Status code=\"-1\" sqlcode=\"1\" description=\""+e1.getLocalizedMessage()+"\" /></Execution></Response>";
+                        }
+                        catch (java.rmi.RemoteException e2)
+                        {
+                            e2.printStackTrace();
+                            response = "<Response><Execution><Status code=\"-1\" sqlcode=\"1\" description=\""+e2.getLocalizedMessage()+"\" /></Execution></Response>";
+                        }
                         break;
                     default:
                         //...;
                         break;
                 }
-            } catch ( javax.xml.rpc.ServiceException  e1) {
-                e1.printStackTrace();
-            }
-            catch (java.rmi.RemoteException e2)
-            {
-                e2.printStackTrace();
-            }
+
         }
         else
         {
-            return "";
+            return response;
         }
 
        System.out.println(response);
