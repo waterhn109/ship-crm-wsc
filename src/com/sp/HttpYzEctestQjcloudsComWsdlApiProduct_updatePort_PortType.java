@@ -10,4 +10,5 @@ package com.sp;
 public interface HttpYzEctestQjcloudsComWsdlApiProduct_updatePort_PortType extends java.rmi.Remote {
     public java.lang.String product_update(java.lang.String postXml) throws java.rmi.RemoteException;
     public java.lang.String product_price_update(java.lang.String postXml) throws java.rmi.RemoteException;
+
 }

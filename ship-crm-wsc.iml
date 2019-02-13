@@ -4,27 +4,42 @@
     <facet type="web" name="Web">
       <configuration>
         <descriptors>
-          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../ship-crm-wsc/web/WEB-INF/web.xml" />
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/out/artifacts/ship_crm_wsc_war/WEB-INF/web.xml" />
         </descriptors>
         <webroots>
-          <root url="file://$MODULE_DIR$/../ship-crm-wsc/web" relative="/" />
+          <root url="file://$MODULE_DIR$/out/artifacts/ship_crm_wsc_war" relative="/" />
         </webroots>
       </configuration>
-      <facet type="webservices" name="WebServices">
-        <configuration ws.engine="Apache Axis" />
-      </facet>
+    </facet>
+    <facet type="web" name="Web2">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/out/artifacts/ship_crm_wsc_war_exploded/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/out/artifacts/ship_crm_wsc_war_exploded" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web3">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/web/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/web" relative="/" />
+        </webroots>
+      </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../ship-crm-wsc">
-      <sourceFolder url="file://$MODULE_DIR$/../ship-crm-wsc/src" isTestSource="false" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="JAX-WS-Apache Axis" level="project" />
-    <orderEntry type="library" name="enterprise" level="project" />
-    <orderEntry type="library" name="sf_erp" level="project" />
-    <orderEntry type="library" name="force-wsc-45.0.0" level="project" />
+    <orderEntry type="library" name="lib2" level="project" />
+    <orderEntry type="library" name="lib1" level="project" />
   </component>
 </module>
