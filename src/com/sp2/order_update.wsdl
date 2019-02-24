@@ -1,0 +1,139 @@
+<?xml version="1.0" ?>
+<definitions name="http://dms.shipgroup.net/wsdl/api/order_update" targetNamespace="urn:http://dms.shipgroup.net/wsdl/api/order_update" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="urn:http://dms.shipgroup.net/wsdl/api/order_update" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+<types xmlns="http://schemas.xmlsoap.org/wsdl/" />
+<portType name="http://dms.shipgroup.net/wsdl/api/order_updatePort"><operation name="order_update">
+<input message="tns:order_updateRequest" />
+<output message="tns:order_updateResponse" />
+</operation>
+<operation name="order_delivery_add">
+<input message="tns:order_delivery_addRequest" />
+<output message="tns:order_delivery_addResponse" />
+</operation>
+<operation name="order_delivery_update">
+<input message="tns:order_delivery_updateRequest" />
+<output message="tns:order_delivery_updateResponse" />
+</operation>
+<operation name="order_delivery_delete">
+<input message="tns:order_delivery_deleteRequest" />
+<output message="tns:order_delivery_deleteResponse" />
+</operation>
+<operation name="order_refund_add">
+<input message="tns:order_refund_addRequest" />
+<output message="tns:order_refund_addResponse" />
+</operation>
+<operation name="order_refund_update">
+<input message="tns:order_refund_updateRequest" />
+<output message="tns:order_refund_updateResponse" />
+</operation>
+<operation name="order_refund_delete">
+<input message="tns:order_refund_deleteRequest" />
+<output message="tns:order_refund_deleteResponse" />
+</operation>
+</portType>
+<binding name="http://dms.shipgroup.net/wsdl/api/order_updateBinding" type="tns:http://dms.shipgroup.net/wsdl/api/order_updatePort">
+<soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http" />
+<operation name="order_update">
+<soap:operation soapAction="urn:http://dms.shipgroup.net/wsdl/api/order_update#webserver_order#order_update" />
+<input><soap:body use="encoded" namespace="urn:http://dms.shipgroup.net/wsdl/api/order_update" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+</input>
+<output>
+<soap:body use="encoded" namespace="urn:http://dms.shipgroup.net/wsdl/api/order_update" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+</output>
+</operation>
+<operation name="order_delivery_add">
+<soap:operation soapAction="urn:http://dms.shipgroup.net/wsdl/api/order_update#webserver_order#order_delivery_add" />
+<input><soap:body use="encoded" namespace="urn:http://dms.shipgroup.net/wsdl/api/order_update" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+</input>
+<output>
+<soap:body use="encoded" namespace="urn:http://dms.shipgroup.net/wsdl/api/order_update" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+</output>
+</operation>
+<operation name="order_delivery_update">
+<soap:operation soapAction="urn:http://dms.shipgroup.net/wsdl/api/order_update#webserver_order#order_delivery_update" />
+<input><soap:body use="encoded" namespace="urn:http://dms.shipgroup.net/wsdl/api/order_update" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+</input>
+<output>
+<soap:body use="encoded" namespace="urn:http://dms.shipgroup.net/wsdl/api/order_update" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+</output>
+</operation>
+<operation name="order_delivery_delete">
+<soap:operation soapAction="urn:http://dms.shipgroup.net/wsdl/api/order_update#webserver_order#order_delivery_delete" />
+<input><soap:body use="encoded" namespace="urn:http://dms.shipgroup.net/wsdl/api/order_update" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+</input>
+<output>
+<soap:body use="encoded" namespace="urn:http://dms.shipgroup.net/wsdl/api/order_update" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+</output>
+</operation>
+<operation name="order_refund_add">
+<soap:operation soapAction="urn:http://dms.shipgroup.net/wsdl/api/order_update#webserver_order#order_refund_add" />
+<input><soap:body use="encoded" namespace="urn:http://dms.shipgroup.net/wsdl/api/order_update" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+</input>
+<output>
+<soap:body use="encoded" namespace="urn:http://dms.shipgroup.net/wsdl/api/order_update" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+</output>
+</operation>
+<operation name="order_refund_update">
+<soap:operation soapAction="urn:http://dms.shipgroup.net/wsdl/api/order_update#webserver_order#order_refund_update" />
+<input><soap:body use="encoded" namespace="urn:http://dms.shipgroup.net/wsdl/api/order_update" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+</input>
+<output>
+<soap:body use="encoded" namespace="urn:http://dms.shipgroup.net/wsdl/api/order_update" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+</output>
+</operation>
+<operation name="order_refund_delete">
+<soap:operation soapAction="urn:http://dms.shipgroup.net/wsdl/api/order_update#webserver_order#order_refund_delete" />
+<input><soap:body use="encoded" namespace="urn:http://dms.shipgroup.net/wsdl/api/order_update" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+</input>
+<output>
+<soap:body use="encoded" namespace="urn:http://dms.shipgroup.net/wsdl/api/order_update" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+</output>
+</operation>
+</binding>
+<service name="http://dms.shipgroup.net/wsdl/api/order_update">
+<documentation />
+<port name="http://dms.shipgroup.net/wsdl/api/order_updatePort" binding="tns:http://dms.shipgroup.net/wsdl/api/order_updateBinding"><soap:address location="http://_:80/index.php/wsdl/api/order_update" />
+</port>
+</service>
+<message name="order_updateRequest">
+<part name="postXml" type="xsd:string" />
+</message>
+<message name="order_updateResponse">
+<part name="order_update" type="xsd:string" />
+</message>
+<message name="order_delivery_addRequest">
+<part name="postXml" type="xsd:string" />
+</message>
+<message name="order_delivery_addResponse">
+<part name="order_delivery_add" type="xsd:string" />
+</message>
+<message name="order_delivery_updateRequest">
+<part name="postXml" type="xsd:string" />
+</message>
+<message name="order_delivery_updateResponse">
+<part name="order_delivery_update" type="xsd:string" />
+</message>
+<message name="order_delivery_deleteRequest">
+<part name="postXml" type="xsd:string" />
+</message>
+<message name="order_delivery_deleteResponse">
+<part name="order_delivery_delete" type="xsd:string" />
+</message>
+<message name="order_refund_addRequest">
+<part name="postXml" type="xsd:string" />
+</message>
+<message name="order_refund_addResponse">
+<part name="order_refund_add" type="xsd:string" />
+</message>
+<message name="order_refund_updateRequest">
+<part name="postXml" type="xsd:string" />
+</message>
+<message name="order_refund_updateResponse">
+<part name="order_refund_update" type="xsd:string" />
+</message>
+<message name="order_refund_deleteRequest">
+<part name="postXml" type="xsd:string" />
+</message>
+<message name="order_refund_deleteResponse">
+<part name="order_refund_delete" type="xsd:string" />
+</message>
+</definitions>

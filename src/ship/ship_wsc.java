@@ -10,12 +10,12 @@ import com.sforce.soap.enterprise.DeleteResult;
        import com.sforce.soap.enterprise.sobject.Contact;
        import com.sforce.ws.ConnectionException;
        import com.sforce.ws.ConnectorConfig;
-import com.sp.HttpYzEctestQjcloudsComWsdlApiProduct_updateLocator;
-import com.sp.HttpYzEctestQjcloudsComWsdlApiProduct_updatePort_PortType;
-import com.sp1.HttpYzEctestQjcloudsComWsdlApiCustomer_updateLocator;
-import com.sp1.HttpYzEctestQjcloudsComWsdlApiCustomer_updatePort_PortType;
-import com.sp2.HttpYzEctestQjcloudsComWsdlApiOrder_updateLocator;
-import com.sp2.HttpYzEctestQjcloudsComWsdlApiOrder_updatePort_PortType;
+import com.sp.HttpDmsShipgroupNetWsdlApiProduct_updateLocator;
+import com.sp.HttpDmsShipgroupNetWsdlApiProduct_updatePort_PortType;
+import com.sp1.HttpDmsShipgroupNetWsdlApiCustomer_updateLocator;
+import com.sp1.HttpDmsShipgroupNetWsdlApiCustomer_updatePort_PortType;
+import com.sp2.HttpDmsShipgroupNetWsdlApiOrder_updateLocator;
+import com.sp2.HttpDmsShipgroupNetWsdlApiOrder_updatePort_PortType;
 
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
@@ -23,7 +23,8 @@ import javax.jws.WebService;
 
 @WebService(serviceName = "ship_wsc",targetNamespace = "http://ship")
 public class ship_wsc {
-    static final String USERNAME = "admin@shipgroup.net.partial";
+  //  static final String USERNAME = "admin@shipgroup.net.partial";
+    static final String USERNAME = "admin@shipgroup.net";
     static final String PASSWORD = "ship1246";
     static EnterpriseConnection connection;
 
@@ -116,8 +117,8 @@ public class ship_wsc {
                     //产品
                     case "upsertProduct":
                         try {
-                            HttpYzEctestQjcloudsComWsdlApiProduct_updateLocator sp_locator = new HttpYzEctestQjcloudsComWsdlApiProduct_updateLocator();
-                            HttpYzEctestQjcloudsComWsdlApiProduct_updatePort_PortType sp_wsc = sp_locator.getHttpYzEctestQjcloudsComWsdlApiProduct_updatePort();
+                            HttpDmsShipgroupNetWsdlApiProduct_updateLocator sp_locator = new HttpDmsShipgroupNetWsdlApiProduct_updateLocator();
+                            HttpDmsShipgroupNetWsdlApiProduct_updatePort_PortType sp_wsc = sp_locator.getHttpDmsShipgroupNetWsdlApiProduct_updatePort();
                         response = sp_wsc.product_update(request_body);
                         } catch ( javax.xml.rpc.ServiceException  e1) {
                             e1.printStackTrace();
@@ -132,8 +133,8 @@ public class ship_wsc {
                     //产品价格
                     case "upsertProductPrice":
                         try {
-                            HttpYzEctestQjcloudsComWsdlApiProduct_updateLocator sp_locator = new HttpYzEctestQjcloudsComWsdlApiProduct_updateLocator();
-                            HttpYzEctestQjcloudsComWsdlApiProduct_updatePort_PortType sp_wsc = sp_locator.getHttpYzEctestQjcloudsComWsdlApiProduct_updatePort();
+                            HttpDmsShipgroupNetWsdlApiProduct_updateLocator sp_locator = new HttpDmsShipgroupNetWsdlApiProduct_updateLocator();
+                            HttpDmsShipgroupNetWsdlApiProduct_updatePort_PortType sp_wsc = sp_locator.getHttpDmsShipgroupNetWsdlApiProduct_updatePort();
                             response = sp_wsc.product_price_update(request_body);
                         } catch ( javax.xml.rpc.ServiceException  e1) {
                             e1.printStackTrace();
@@ -149,8 +150,8 @@ public class ship_wsc {
                     //客户
                     case "upsertAccount":
                         try {
-                            HttpYzEctestQjcloudsComWsdlApiCustomer_updateLocator sp_locator = new HttpYzEctestQjcloudsComWsdlApiCustomer_updateLocator();
-                            HttpYzEctestQjcloudsComWsdlApiCustomer_updatePort_PortType sp_wsc = sp_locator.getHttpYzEctestQjcloudsComWsdlApiCustomer_updatePort();
+                            HttpDmsShipgroupNetWsdlApiCustomer_updateLocator sp_locator = new HttpDmsShipgroupNetWsdlApiCustomer_updateLocator();
+                            HttpDmsShipgroupNetWsdlApiCustomer_updatePort_PortType sp_wsc = sp_locator.getHttpDmsShipgroupNetWsdlApiCustomer_updatePort();
                             response = sp_wsc.customer_update(request_body);
                         } catch ( javax.xml.rpc.ServiceException  e1) {
                             e1.printStackTrace();
@@ -166,8 +167,8 @@ public class ship_wsc {
                     //订单
                     case "upsertOrder":
                         try {
-                            HttpYzEctestQjcloudsComWsdlApiOrder_updateLocator sp_locator = new HttpYzEctestQjcloudsComWsdlApiOrder_updateLocator();
-                            HttpYzEctestQjcloudsComWsdlApiOrder_updatePort_PortType sp_wsc = sp_locator.getHttpYzEctestQjcloudsComWsdlApiOrder_updatePort();
+                            HttpDmsShipgroupNetWsdlApiOrder_updateLocator sp_locator = new HttpDmsShipgroupNetWsdlApiOrder_updateLocator();
+                            HttpDmsShipgroupNetWsdlApiOrder_updatePort_PortType sp_wsc = sp_locator.getHttpDmsShipgroupNetWsdlApiOrder_updatePort();
                             response = sp_wsc.order_update(request_body);
                         } catch ( javax.xml.rpc.ServiceException  e1) {
                             e1.printStackTrace();
@@ -183,8 +184,8 @@ public class ship_wsc {
                     //出货单新增
                     case "upsertShipmentadd":
                         try {
-                            HttpYzEctestQjcloudsComWsdlApiOrder_updateLocator sp_locator = new HttpYzEctestQjcloudsComWsdlApiOrder_updateLocator();
-                            HttpYzEctestQjcloudsComWsdlApiOrder_updatePort_PortType sp_wsc = sp_locator.getHttpYzEctestQjcloudsComWsdlApiOrder_updatePort();
+                            HttpDmsShipgroupNetWsdlApiOrder_updateLocator sp_locator = new HttpDmsShipgroupNetWsdlApiOrder_updateLocator();
+                            HttpDmsShipgroupNetWsdlApiOrder_updatePort_PortType sp_wsc = sp_locator.getHttpDmsShipgroupNetWsdlApiOrder_updatePort();
                             response = sp_wsc.order_delivery_add(request_body);
                         } catch ( javax.xml.rpc.ServiceException  e1) {
                             e1.printStackTrace();
@@ -200,8 +201,8 @@ public class ship_wsc {
                         //出货单删除或者修改
                     case "upsertShipment":
                         try {
-                            HttpYzEctestQjcloudsComWsdlApiOrder_updateLocator sp_locator = new HttpYzEctestQjcloudsComWsdlApiOrder_updateLocator();
-                            HttpYzEctestQjcloudsComWsdlApiOrder_updatePort_PortType sp_wsc = sp_locator.getHttpYzEctestQjcloudsComWsdlApiOrder_updatePort();
+                            HttpDmsShipgroupNetWsdlApiOrder_updateLocator sp_locator = new HttpDmsShipgroupNetWsdlApiOrder_updateLocator();
+                            HttpDmsShipgroupNetWsdlApiOrder_updatePort_PortType sp_wsc = sp_locator.getHttpDmsShipgroupNetWsdlApiOrder_updatePort();
                             response = sp_wsc.order_delivery_update(request_body);
                         } catch ( javax.xml.rpc.ServiceException  e1) {
                             e1.printStackTrace();
@@ -216,8 +217,8 @@ public class ship_wsc {
                     //销退单新增
                     case "upsertReturnOrderadd":
                         try {
-                            HttpYzEctestQjcloudsComWsdlApiOrder_updateLocator sp_locator = new HttpYzEctestQjcloudsComWsdlApiOrder_updateLocator();
-                            HttpYzEctestQjcloudsComWsdlApiOrder_updatePort_PortType sp_wsc = sp_locator.getHttpYzEctestQjcloudsComWsdlApiOrder_updatePort();
+                            HttpDmsShipgroupNetWsdlApiOrder_updateLocator sp_locator = new HttpDmsShipgroupNetWsdlApiOrder_updateLocator();
+                            HttpDmsShipgroupNetWsdlApiOrder_updatePort_PortType sp_wsc = sp_locator.getHttpDmsShipgroupNetWsdlApiOrder_updatePort();
                             response = sp_wsc.order_refund_add(request_body);
                         } catch ( javax.xml.rpc.ServiceException  e1) {
                             e1.printStackTrace();
@@ -232,8 +233,8 @@ public class ship_wsc {
                         //销退单删除或者修改
                     case "upsertReturnOrder":
                         try {
-                            HttpYzEctestQjcloudsComWsdlApiOrder_updateLocator sp_locator = new HttpYzEctestQjcloudsComWsdlApiOrder_updateLocator();
-                            HttpYzEctestQjcloudsComWsdlApiOrder_updatePort_PortType sp_wsc = sp_locator.getHttpYzEctestQjcloudsComWsdlApiOrder_updatePort();
+                            HttpDmsShipgroupNetWsdlApiOrder_updateLocator sp_locator = new HttpDmsShipgroupNetWsdlApiOrder_updateLocator();
+                            HttpDmsShipgroupNetWsdlApiOrder_updatePort_PortType sp_wsc = sp_locator.getHttpDmsShipgroupNetWsdlApiOrder_updatePort();
                             response = sp_wsc.order_refund_update(request_body);
                         } catch ( javax.xml.rpc.ServiceException  e1) {
                             e1.printStackTrace();

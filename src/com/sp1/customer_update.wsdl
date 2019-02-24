@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<definitions name="http://dms.shipgroup.net/wsdl/api/customer_update" targetNamespace="urn:http://dms.shipgroup.net/wsdl/api/customer_update" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="urn:http://dms.shipgroup.net/wsdl/api/customer_update" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+<types xmlns="http://schemas.xmlsoap.org/wsdl/" />
+<portType name="http://dms.shipgroup.net/wsdl/api/customer_updatePort"><operation name="customer_update">
+<input message="tns:customer_updateRequest" />
+<output message="tns:customer_updateResponse" />
+</operation>
+</portType>
+<binding name="http://dms.shipgroup.net/wsdl/api/customer_updateBinding" type="tns:http://dms.shipgroup.net/wsdl/api/customer_updatePort">
+<soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http" />
+<operation name="customer_update">
+<soap:operation soapAction="urn:http://dms.shipgroup.net/wsdl/api/customer_update#webserver_customer#customer_update" />
+<input><soap:body use="encoded" namespace="urn:http://dms.shipgroup.net/wsdl/api/customer_update" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+</input>
+<output>
+<soap:body use="encoded" namespace="urn:http://dms.shipgroup.net/wsdl/api/customer_update" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+</output>
+</operation>
+</binding>
+<service name="http://dms.shipgroup.net/wsdl/api/customer_update">
+<documentation />
+<port name="http://dms.shipgroup.net/wsdl/api/customer_updatePort" binding="tns:http://dms.shipgroup.net/wsdl/api/customer_updateBinding"><soap:address location="http://_:80/index.php/wsdl/api/customer_update" />
+</port>
+</service>
+<message name="customer_updateRequest">
+<part name="postXml" type="xsd:string" />
+</message>
+<message name="customer_updateResponse">
+<part name="customer_update" type="xsd:string" />
+</message>
+</definitions>
