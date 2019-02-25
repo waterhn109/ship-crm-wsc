@@ -76,15 +76,19 @@ public class ship_wsc {
                     //订单
                     case "upsertOrder":
                         response = soap.upsertOrder(request_body);
+                        break;
                      //产品价格
                     case "upsertProductPrice":
                         response = soap.upsertProductPrice(request_body);
+                        break;
                     //出货单
                     case "upsertShipment":
                         response = soap.upsertShipment(request_body);
+                        break;
                      //销退单
                     case "upsertReturnOrder":
                         response = soap.upsertReturnOrder(request_body);
+                        break;
                     //库存
                     case "upsertProductInventory":
                         response = soap.upsertProductInventory(request_body);
@@ -120,6 +124,7 @@ public class ship_wsc {
                             HttpDmsShipgroupNetWsdlApiProduct_updateLocator sp_locator = new HttpDmsShipgroupNetWsdlApiProduct_updateLocator();
                             HttpDmsShipgroupNetWsdlApiProduct_updatePort_PortType sp_wsc = sp_locator.getHttpDmsShipgroupNetWsdlApiProduct_updatePort();
                         response = sp_wsc.product_update(request_body);
+                            break;
                         } catch ( javax.xml.rpc.ServiceException  e1) {
                             e1.printStackTrace();
                             response = "<Response><Execution><Status code=\"-1\" sqlcode=\"1\" description=\""+e1.getLocalizedMessage()+"\" /></Execution></Response>";
@@ -136,6 +141,7 @@ public class ship_wsc {
                             HttpDmsShipgroupNetWsdlApiProduct_updateLocator sp_locator = new HttpDmsShipgroupNetWsdlApiProduct_updateLocator();
                             HttpDmsShipgroupNetWsdlApiProduct_updatePort_PortType sp_wsc = sp_locator.getHttpDmsShipgroupNetWsdlApiProduct_updatePort();
                             response = sp_wsc.product_price_update(request_body);
+                            break;
                         } catch ( javax.xml.rpc.ServiceException  e1) {
                             e1.printStackTrace();
                             response = "<Response><Execution><Status code=\"-1\" sqlcode=\"1\" description=\""+e1.getLocalizedMessage()+"\" /></Execution></Response>";
@@ -153,6 +159,7 @@ public class ship_wsc {
                             HttpDmsShipgroupNetWsdlApiCustomer_updateLocator sp_locator = new HttpDmsShipgroupNetWsdlApiCustomer_updateLocator();
                             HttpDmsShipgroupNetWsdlApiCustomer_updatePort_PortType sp_wsc = sp_locator.getHttpDmsShipgroupNetWsdlApiCustomer_updatePort();
                             response = sp_wsc.customer_update(request_body);
+                            break;
                         } catch ( javax.xml.rpc.ServiceException  e1) {
                             e1.printStackTrace();
                             response = "<Response><Execution><Status code=\"-1\" sqlcode=\"1\" description=\""+e1.getLocalizedMessage()+"\" /></Execution></Response>";
@@ -170,6 +177,7 @@ public class ship_wsc {
                             HttpDmsShipgroupNetWsdlApiOrder_updateLocator sp_locator = new HttpDmsShipgroupNetWsdlApiOrder_updateLocator();
                             HttpDmsShipgroupNetWsdlApiOrder_updatePort_PortType sp_wsc = sp_locator.getHttpDmsShipgroupNetWsdlApiOrder_updatePort();
                             response = sp_wsc.order_update(request_body);
+                            break;
                         } catch ( javax.xml.rpc.ServiceException  e1) {
                             e1.printStackTrace();
                             response = "<Response><Execution><Status code=\"-1\" sqlcode=\"1\" description=\""+e1.getLocalizedMessage()+"\" /></Execution></Response>";
@@ -187,6 +195,7 @@ public class ship_wsc {
                             HttpDmsShipgroupNetWsdlApiOrder_updateLocator sp_locator = new HttpDmsShipgroupNetWsdlApiOrder_updateLocator();
                             HttpDmsShipgroupNetWsdlApiOrder_updatePort_PortType sp_wsc = sp_locator.getHttpDmsShipgroupNetWsdlApiOrder_updatePort();
                             response = sp_wsc.order_delivery_add(request_body);
+                            break;
                         } catch ( javax.xml.rpc.ServiceException  e1) {
                             e1.printStackTrace();
                             response = "<Response><Execution><Status code=\"-1\" sqlcode=\"1\" description=\""+e1.getLocalizedMessage()+"\" /></Execution></Response>";
@@ -204,6 +213,7 @@ public class ship_wsc {
                             HttpDmsShipgroupNetWsdlApiOrder_updateLocator sp_locator = new HttpDmsShipgroupNetWsdlApiOrder_updateLocator();
                             HttpDmsShipgroupNetWsdlApiOrder_updatePort_PortType sp_wsc = sp_locator.getHttpDmsShipgroupNetWsdlApiOrder_updatePort();
                             response = sp_wsc.order_delivery_update(request_body);
+                            break;
                         } catch ( javax.xml.rpc.ServiceException  e1) {
                             e1.printStackTrace();
                             response = "<Response><Execution><Status code=\"-1\" sqlcode=\"1\" description=\""+e1.getLocalizedMessage()+"\" /></Execution></Response>";
@@ -220,6 +230,7 @@ public class ship_wsc {
                             HttpDmsShipgroupNetWsdlApiOrder_updateLocator sp_locator = new HttpDmsShipgroupNetWsdlApiOrder_updateLocator();
                             HttpDmsShipgroupNetWsdlApiOrder_updatePort_PortType sp_wsc = sp_locator.getHttpDmsShipgroupNetWsdlApiOrder_updatePort();
                             response = sp_wsc.order_refund_add(request_body);
+                            break;
                         } catch ( javax.xml.rpc.ServiceException  e1) {
                             e1.printStackTrace();
                             response = "<Response><Execution><Status code=\"-1\" sqlcode=\"1\" description=\""+e1.getLocalizedMessage()+"\" /></Execution></Response>";
@@ -236,6 +247,7 @@ public class ship_wsc {
                             HttpDmsShipgroupNetWsdlApiOrder_updateLocator sp_locator = new HttpDmsShipgroupNetWsdlApiOrder_updateLocator();
                             HttpDmsShipgroupNetWsdlApiOrder_updatePort_PortType sp_wsc = sp_locator.getHttpDmsShipgroupNetWsdlApiOrder_updatePort();
                             response = sp_wsc.order_refund_update(request_body);
+                            break;
                         } catch ( javax.xml.rpc.ServiceException  e1) {
                             e1.printStackTrace();
                             response = "<Response><Execution><Status code=\"-1\" sqlcode=\"1\" description=\""+e1.getLocalizedMessage()+"\" /></Execution></Response>";
