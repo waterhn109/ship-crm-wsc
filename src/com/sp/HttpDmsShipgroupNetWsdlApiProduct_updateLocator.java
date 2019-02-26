@@ -22,7 +22,7 @@ public class HttpDmsShipgroupNetWsdlApiProduct_updateLocator extends org.apache.
     }
 
     // Use to get a proxy class for HttpDmsShipgroupNetWsdlApiProduct_updatePort
-    private java.lang.String HttpDmsShipgroupNetWsdlApiProduct_updatePort_address = "http://_:80/index.php/wsdl/api/product_update";
+    private java.lang.String HttpDmsShipgroupNetWsdlApiProduct_updatePort_address = "http://dms.shipgroup.net:80/index.php/wsdl/api/product_update";
 
     public java.lang.String getHttpDmsShipgroupNetWsdlApiProduct_updatePortAddress() {
         return HttpDmsShipgroupNetWsdlApiProduct_updatePort_address;
