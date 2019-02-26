@@ -9,7 +9,8 @@
   <component name="ChangeListManager">
     <list default="true" id="da719351-3c82-4c6a-975e-ceacc3e5bcee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sp/HttpDmsShipgroupNetWsdlApiProduct_updateLocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sp/HttpDmsShipgroupNetWsdlApiProduct_updateLocator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sp1/HttpDmsShipgroupNetWsdlApiCustomer_updateLocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sp1/HttpDmsShipgroupNetWsdlApiCustomer_updateLocator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sp2/HttpDmsShipgroupNetWsdlApiOrder_updateLocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sp2/HttpDmsShipgroupNetWsdlApiOrder_updateLocator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ship/ship_wsc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="280" selection-start-line="280" selection-end-line="280" />
+            <state relative-caret-position="270">
+              <caret line="272" selection-start-line="272" selection-end-line="272" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,11 +33,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/sp/HttpDmsShipgroupNetWsdlApiProduct_updateLocator.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sp1/HttpDmsShipgroupNetWsdlApiCustomer_updateLocator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="24" column="146" lean-forward="true" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="146" />
+            <state relative-caret-position="229">
+              <caret line="24" column="110" selection-start-line="24" selection-start-column="110" selection-end-line="24" selection-end-column="110" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/sp2/HttpDmsShipgroupNetWsdlApiOrder_updateLocator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="24" column="107" selection-start-line="24" selection-start-column="107" selection-end-line="24" selection-end-column="107" />
             </state>
           </provider>
         </entry>
@@ -67,7 +77,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sp/HttpDmsShipgroupNetWsdlApiProduct_updateBindingStub.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-494">
+            <state relative-caret-position="76">
               <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
@@ -97,6 +107,7 @@
     <findStrings>
       <find>http://_:80/index.php/wsdl/api/product_update</find>
       <find>:80/index.php/wsdl/api/product_update</find>
+      <find>http://_:80/</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -108,6 +119,8 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/ship/ship_wsc.java" />
         <option value="$PROJECT_DIR$/src/com/sp/HttpDmsShipgroupNetWsdlApiProduct_updateLocator.java" />
+        <option value="$PROJECT_DIR$/src/com/sp1/HttpDmsShipgroupNetWsdlApiCustomer_updateLocator.java" />
+        <option value="$PROJECT_DIR$/src/com/sp2/HttpDmsShipgroupNetWsdlApiOrder_updateLocator.java" />
       </list>
     </option>
   </component>
@@ -128,9 +141,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="58" />
-    <option name="width" value="1769" />
-    <option name="height" value="1014" />
+    <option name="x" value="57" />
+    <option name="width" value="1771" />
+    <option name="height" value="1016" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -138,6 +151,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,13 +191,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551162069109" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551162154297" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/META-INF/MANIFEST.MF" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -300,6 +313,7 @@
       <workItem from="1550987966512" duration="3936000" />
       <workItem from="1551071502649" duration="11000" />
       <workItem from="1551091808759" duration="405000" />
+      <workItem from="1551162792142" duration="304000" />
     </task>
     <task id="LOCAL-00001" summary="商派销退出货">
       <created>1550022789830</created>
@@ -315,11 +329,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550992755812</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="正式区">
+      <created>1551162092533</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551162092533</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12049000" />
+    <option name="totallyTimeSpent" value="12521000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -332,9 +353,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3076412" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3116279" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -345,7 +365,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5315568" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3646564" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3646564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32959327" />
@@ -458,10 +478,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/sp/HttpDmsShipgroupNetWsdlApiProduct_updateLocator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+        <state relative-caret-position="134">
+          <caret line="24" column="146" lean-forward="true" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ship/ship_wsc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="272" selection-start-line="272" selection-end-line="272" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -484,25 +514,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sp/HttpDmsShipgroupNetWsdlApiProduct_updateBindingStub.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-494">
+        <state relative-caret-position="76">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ship/ship_wsc.java">
+    <entry file="jar://$PROJECT_DIR$/lib/axis.jar!/org/apache/axis/providers/java/RPCProvider.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="280" selection-start-line="280" selection-end-line="280" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="5016">
+          <caret line="293" selection-start-line="293" selection-end-line="293" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sp/HttpDmsShipgroupNetWsdlApiProduct_updateLocator.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="24" column="146" lean-forward="true" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="146" />
+        <state relative-caret-position="969">
+          <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sp1/HttpDmsShipgroupNetWsdlApiCustomer_updateLocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="24" column="110" selection-start-line="24" selection-start-column="110" selection-end-line="24" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sp2/HttpDmsShipgroupNetWsdlApiOrder_updateLocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="24" column="107" selection-start-line="24" selection-start-column="107" selection-end-line="24" selection-end-column="107" />
         </state>
       </provider>
     </entry>
