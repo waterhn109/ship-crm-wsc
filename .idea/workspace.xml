@@ -8,121 +8,161 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da719351-3c82-4c6a-975e-ceacc3e5bcee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/ArrayOfString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/ArrayOfString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/ArrayOfWorkflowRequestLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/ArrayOfWorkflowRequestLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/DeleteRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/DeleteRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/DeleteRequestResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/DeleteRequestResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/DoCreateWorkflowRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/DoCreateWorkflowRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/DoCreateWorkflowRequestResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/DoCreateWorkflowRequestResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/DoForceOver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/DoForceOver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/DoForceOverResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/DoForceOverResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/Forward2WorkflowRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/Forward2WorkflowRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/Forward2WorkflowRequestResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/Forward2WorkflowRequestResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/ForwardWorkflowRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/ForwardWorkflowRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/ForwardWorkflowRequestResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/ForwardWorkflowRequestResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetAllWorkflowRequestCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetAllWorkflowRequestCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetAllWorkflowRequestCountResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetAllWorkflowRequestCountResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetAllWorkflowRequestList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetAllWorkflowRequestList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetAllWorkflowRequestListResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetAllWorkflowRequestListResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCCWorkflowRequestCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCCWorkflowRequestCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCCWorkflowRequestCountResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCCWorkflowRequestCountResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCCWorkflowRequestList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCCWorkflowRequestList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCCWorkflowRequestListResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCCWorkflowRequestListResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowCountResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowCountResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowListResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowListResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowRequestInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowRequestInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowRequestInfoResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowRequestInfoResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowTypeCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowTypeCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowTypeCountResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowTypeCountResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowTypeList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowTypeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowTypeListResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowTypeListResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetHendledWorkflowRequestCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetHendledWorkflowRequestCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetHendledWorkflowRequestCountResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetHendledWorkflowRequestCountResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetHendledWorkflowRequestList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetHendledWorkflowRequestList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetHendledWorkflowRequestListResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetHendledWorkflowRequestListResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetLeaveDays.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetLeaveDays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetLeaveDaysResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetLeaveDaysResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetMyWorkflowRequestCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetMyWorkflowRequestCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetMyWorkflowRequestCountResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetMyWorkflowRequestCountResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetMyWorkflowRequestList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetMyWorkflowRequestList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetMyWorkflowRequestListResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetMyWorkflowRequestListResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetProcessedWorkflowRequestCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetProcessedWorkflowRequestCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetProcessedWorkflowRequestCountResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetProcessedWorkflowRequestCountResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetProcessedWorkflowRequestList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetProcessedWorkflowRequestList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetProcessedWorkflowRequestListResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetProcessedWorkflowRequestListResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetToDoWorkflowRequestCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetToDoWorkflowRequestCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetToDoWorkflowRequestCountResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetToDoWorkflowRequestCountResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetToDoWorkflowRequestList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetToDoWorkflowRequestList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetToDoWorkflowRequestListResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetToDoWorkflowRequestListResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetUserId.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetUserId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetUserIdResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetUserIdResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetWorkflowNewFlag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetWorkflowNewFlag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetWorkflowNewFlagResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetWorkflowNewFlagResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetWorkflowRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetWorkflowRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetWorkflowRequest4Split.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetWorkflowRequest4Split.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetWorkflowRequest4SplitResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetWorkflowRequest4SplitResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetWorkflowRequestLogs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetWorkflowRequestLogs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetWorkflowRequestLogsResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetWorkflowRequestLogsResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetWorkflowRequestResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GetWorkflowRequestResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GivingOpinions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GivingOpinions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GivingOpinionsResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/GivingOpinionsResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/ObjectFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/ObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/SubmitWorkflowRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/SubmitWorkflowRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/SubmitWorkflowRequestResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/SubmitWorkflowRequestResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/WorkflowRequestLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/WorkflowRequestLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/WorkflowServiceXml.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/WorkflowServiceXml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/WorkflowServiceXml.wsdl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/WorkflowServiceXmlPortType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/WorkflowServiceXmlPortType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/WriteWorkflowReadFlag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/WriteWorkflowReadFlag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/WriteWorkflowReadFlagResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/WriteWorkflowReadFlagResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/package-info.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oa/package-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sp1/HttpDmsShipgroupNetWsdlApiCustomer_updateLocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sp1/HttpDmsShipgroupNetWsdlApiCustomer_updateLocator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sp2/HttpDmsShipgroupNetWsdlApiOrder_updateLocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sp2/HttpDmsShipgroupNetWsdlApiOrder_updateLocator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/sf_erp.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/sf_erp.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ship/ship_wsc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ship/ship_wsc.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ship/ship_wsc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="272" selection-start-line="272" selection-end-line="272" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sp1/HttpDmsShipgroupNetWsdlApiCustomer_updateLocator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="24" column="110" selection-start-line="24" selection-start-column="110" selection-end-line="24" selection-end-column="110" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/sp2/HttpDmsShipgroupNetWsdlApiOrder_updateLocator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="24" column="107" selection-start-line="24" selection-start-column="107" selection-end-line="24" selection-end-column="107" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sp/product_update.wsdl">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sp/HttpDmsShipgroupNetWsdlApiProduct_update.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sp/HttpDmsShipgroupNetWsdlApiProduct_updatePort_PortType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sp/HttpDmsShipgroupNetWsdlApiProduct_updateBindingStub.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/axis.jar!/org/apache/axis/providers/java/RPCProvider.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5016">
-              <caret line="293" selection-start-line="293" selection-end-line="293" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>http://_:80/index.php/wsdl/api/product_update</find>
-      <find>:80/index.php/wsdl/api/product_update</find>
-      <find>http://_:80/</find>
-    </findStrings>
+  <component name="FavoritesManager">
+    <favorites_list name="ship-crm-wsc" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/ship/ship_wsc.java" />
-        <option value="$PROJECT_DIR$/src/com/sp/HttpDmsShipgroupNetWsdlApiProduct_updateLocator.java" />
-        <option value="$PROJECT_DIR$/src/com/sp1/HttpDmsShipgroupNetWsdlApiCustomer_updateLocator.java" />
-        <option value="$PROJECT_DIR$/src/com/sp2/HttpDmsShipgroupNetWsdlApiOrder_updateLocator.java" />
-      </list>
-    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -140,66 +180,16 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="57" />
-    <option name="width" value="1771" />
-    <option name="height" value="1016" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ship-crm-wsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ship-crm-wsc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ship-crm-wsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ship-crm-wsc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ship-crm-wsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ship-crm-wsc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ship-crm-wsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ship-crm-wsc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ship-crm-wsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ship-crm-wsc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ship" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ship-crm-wsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
+  <component name="ProjectId" id="1PRdWjQYtz1xnpelz9rCpclGM4u" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551162154297" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557748697055" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/META-INF/MANIFEST.MF" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15625" />
     <property name="project.structure.side.proportion" value="0.20232558" />
@@ -313,7 +303,23 @@
       <workItem from="1550987966512" duration="3936000" />
       <workItem from="1551071502649" duration="11000" />
       <workItem from="1551091808759" duration="405000" />
-      <workItem from="1551162792142" duration="304000" />
+      <workItem from="1551162792142" duration="1181000" />
+      <workItem from="1551169304379" duration="604000" />
+      <workItem from="1551967106915" duration="35000" />
+      <workItem from="1552010670401" duration="1089000" />
+      <workItem from="1552440317710" duration="662000" />
+      <workItem from="1552459021071" duration="620000" />
+      <workItem from="1557457504049" duration="4514000" />
+      <workItem from="1557584694075" duration="1476000" />
+      <workItem from="1557586637860" duration="673000" />
+      <workItem from="1557730973159" duration="1882000" />
+      <workItem from="1557747742070" duration="1400000" />
+      <workItem from="1557915925599" duration="399000" />
+      <workItem from="1557916451420" duration="976000" />
+      <workItem from="1558057598574" duration="16000" />
+      <workItem from="1561600742297" duration="604000" />
+      <workItem from="1561604531293" duration="20000" />
+      <workItem from="1565840880379" duration="11246000" />
     </task>
     <task id="LOCAL-00001" summary="商派销退出货">
       <created>1550022789830</created>
@@ -336,11 +342,15 @@
       <option name="project" value="LOCAL" />
       <updated>1551162092533</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="正式区">
+      <created>1551163107174</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1551163107174</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12521000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -351,45 +361,19 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3116279" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5315568" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3646564" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32959327" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32959327" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32959327" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32959327" />
-      <window_info anchor="bottom" id="Messages" order="14" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="商派销退出货" />
@@ -399,154 +383,33 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/ship/ship_wsc.java</url>
-          <line>26</line>
-          <properties field="USERNAME" class="ship.ship_wsc" />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/ship/ship_wsc.java</url>
-          <line>27</line>
-          <properties field="PASSWORD" class="ship.ship_wsc" />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/ship/ship_wsc.java</url>
-          <line>28</line>
-          <properties field="connection" class="ship.ship_wsc" />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ship/ship_wsc.java</url>
-          <line>53</line>
-          <properties />
+          <line>80</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ship/ship_wsc.java</url>
-          <line>55</line>
-          <properties />
+          <line>85</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ship/ship_wsc.java</url>
-          <line>57</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ship/ship_wsc.java</url>
-          <line>54</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ship/ship_wsc.java</url>
-          <line>40</line>
-          <properties />
+          <line>77</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ship/ship_wsc.java</url>
-          <line>42</line>
-          <properties />
-          <option name="timeStamp" value="11" />
+          <line>67</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ship/ship_wsc.java</url>
-          <line>38</line>
-          <properties />
-          <option name="timeStamp" value="12" />
+          <line>128</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/sp/HttpYzEctestQjcloudsComWsdlApiProduct_update.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/sp2/order_update.wsdl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ship-crm-wsc.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ship/ship_wsc.wsdl" />
-    <entry file="file://$PROJECT_DIR$/src/example/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sp/HttpDmsShipgroupNetWsdlApiProduct_updateLocator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="24" column="146" lean-forward="true" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="146" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ship/ship_wsc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="272" selection-start-line="272" selection-end-line="272" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sp/product_update.wsdl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sp/HttpDmsShipgroupNetWsdlApiProduct_update.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sp/HttpDmsShipgroupNetWsdlApiProduct_updatePort_PortType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sp/HttpDmsShipgroupNetWsdlApiProduct_updateBindingStub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/axis.jar!/org/apache/axis/providers/java/RPCProvider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5016">
-          <caret line="293" selection-start-line="293" selection-end-line="293" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sp1/HttpDmsShipgroupNetWsdlApiCustomer_updateLocator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="24" column="110" selection-start-line="24" selection-start-column="110" selection-end-line="24" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sp2/HttpDmsShipgroupNetWsdlApiOrder_updateLocator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="24" column="107" selection-start-line="24" selection-start-column="107" selection-end-line="24" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
