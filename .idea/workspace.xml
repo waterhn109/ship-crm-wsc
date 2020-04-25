@@ -8,148 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da719351-3c82-4c6a-975e-ceacc3e5bcee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/ArrayOfString.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/ArrayOfString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/ArrayOfWorkflowRequestLog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/ArrayOfWorkflowRequestLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/DeleteRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/DeleteRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/DeleteRequestResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/DeleteRequestResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/DoCreateWorkflowRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/DoCreateWorkflowRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/DoCreateWorkflowRequestResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/DoCreateWorkflowRequestResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/DoForceOver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/DoForceOver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/DoForceOverResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/DoForceOverResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/Forward2WorkflowRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/Forward2WorkflowRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/Forward2WorkflowRequestResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/Forward2WorkflowRequestResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/ForwardWorkflowRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/ForwardWorkflowRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/ForwardWorkflowRequestResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/ForwardWorkflowRequestResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetAllWorkflowRequestCount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetAllWorkflowRequestCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetAllWorkflowRequestCountResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetAllWorkflowRequestCountResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetAllWorkflowRequestList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetAllWorkflowRequestList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetAllWorkflowRequestListResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetAllWorkflowRequestListResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCCWorkflowRequestCount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCCWorkflowRequestCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCCWorkflowRequestCountResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCCWorkflowRequestCountResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCCWorkflowRequestList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCCWorkflowRequestList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCCWorkflowRequestListResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCCWorkflowRequestListResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowCount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowCountResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowCountResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowListResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowListResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowRequestInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowRequestInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowRequestInfoResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowRequestInfoResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowTypeCount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowTypeCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowTypeCountResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowTypeCountResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowTypeList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowTypeList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowTypeListResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetCreateWorkflowTypeListResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetHendledWorkflowRequestCount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetHendledWorkflowRequestCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetHendledWorkflowRequestCountResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetHendledWorkflowRequestCountResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetHendledWorkflowRequestList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetHendledWorkflowRequestList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetHendledWorkflowRequestListResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetHendledWorkflowRequestListResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetLeaveDays.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetLeaveDays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetLeaveDaysResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetLeaveDaysResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetMyWorkflowRequestCount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetMyWorkflowRequestCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetMyWorkflowRequestCountResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetMyWorkflowRequestCountResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetMyWorkflowRequestList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetMyWorkflowRequestList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetMyWorkflowRequestListResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetMyWorkflowRequestListResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetProcessedWorkflowRequestCount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetProcessedWorkflowRequestCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetProcessedWorkflowRequestCountResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetProcessedWorkflowRequestCountResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetProcessedWorkflowRequestList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetProcessedWorkflowRequestList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetProcessedWorkflowRequestListResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetProcessedWorkflowRequestListResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetToDoWorkflowRequestCount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetToDoWorkflowRequestCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetToDoWorkflowRequestCountResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetToDoWorkflowRequestCountResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetToDoWorkflowRequestList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetToDoWorkflowRequestList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetToDoWorkflowRequestListResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetToDoWorkflowRequestListResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetUserId.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetUserId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetUserIdResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetUserIdResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetWorkflowNewFlag.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetWorkflowNewFlag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetWorkflowNewFlagResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetWorkflowNewFlagResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetWorkflowRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetWorkflowRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetWorkflowRequest4Split.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetWorkflowRequest4Split.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetWorkflowRequest4SplitResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetWorkflowRequest4SplitResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetWorkflowRequestLogs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetWorkflowRequestLogs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetWorkflowRequestLogsResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetWorkflowRequestLogsResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetWorkflowRequestResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GetWorkflowRequestResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GivingOpinions.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GivingOpinions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GivingOpinionsResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/GivingOpinionsResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/ObjectFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/ObjectFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/SubmitWorkflowRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/SubmitWorkflowRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/SubmitWorkflowRequestResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/SubmitWorkflowRequestResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/WorkflowRequestLog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/WorkflowRequestLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/WorkflowServiceXml.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/WorkflowServiceXml.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/WorkflowServiceXml.wsdl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/WorkflowServiceXmlPortType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/WorkflowServiceXmlPortType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/WriteWorkflowReadFlag.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/WriteWorkflowReadFlag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/WriteWorkflowReadFlagResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/WriteWorkflowReadFlagResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/package-info.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oa/package-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/sf_erp.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/sf_erp.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ship/ship_wsc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ship/ship_wsc.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -319,7 +178,16 @@
       <workItem from="1558057598574" duration="16000" />
       <workItem from="1561600742297" duration="604000" />
       <workItem from="1561604531293" duration="20000" />
-      <workItem from="1565840880379" duration="11246000" />
+      <workItem from="1565840880379" duration="11357000" />
+      <workItem from="1566107751622" duration="14000" />
+      <workItem from="1566806590267" duration="612000" />
+      <workItem from="1576754206900" duration="142000" />
+      <workItem from="1576808758873" duration="613000" />
+      <workItem from="1576823771788" duration="11000" />
+      <workItem from="1577181356942" duration="607000" />
+      <workItem from="1578367704759" duration="619000" />
+      <workItem from="1580884489642" duration="357000" />
+      <workItem from="1587810992545" duration="717000" />
     </task>
     <task id="LOCAL-00001" summary="商派销退出货">
       <created>1550022789830</created>
@@ -349,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551163107174</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="正式区">
+      <created>1565870108937</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1565870108937</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -369,7 +244,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -385,27 +262,27 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ship/ship_wsc.java</url>
-          <line>80</line>
+          <line>95</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ship/ship_wsc.java</url>
-          <line>85</line>
+          <line>100</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ship/ship_wsc.java</url>
-          <line>77</line>
+          <line>92</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ship/ship_wsc.java</url>
-          <line>67</line>
+          <line>82</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ship/ship_wsc.java</url>
-          <line>128</line>
+          <line>143</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>

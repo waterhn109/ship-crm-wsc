@@ -11,9 +11,23 @@ import com.sp1.HttpDmsShipgroupNetWsdlApiCustomer_updateLocator;
 import com.sp1.HttpDmsShipgroupNetWsdlApiCustomer_updatePort_PortType;
 import com.sp2.HttpDmsShipgroupNetWsdlApiOrder_updateLocator;
 import com.sp2.HttpDmsShipgroupNetWsdlApiOrder_updatePort_PortType;
+import org.w3c.dom.DOMConfiguration;
+import org.w3c.dom.Document;
+import org.w3c.dom.Node;
+import org.w3c.dom.bootstrap.DOMImplementationRegistry;
+import org.w3c.dom.ls.DOMImplementationLS;
+import org.w3c.dom.ls.LSOutput;
+import org.w3c.dom.ls.LSSerializer;
+import org.xml.sax.InputSource;
+
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
 import javax.jws.WebService;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.StringReader;
 
 @WebService(serviceName = "ship_wsc",targetNamespace = "http://ship")
 public class ship_wsc {
@@ -26,7 +40,8 @@ public class ship_wsc {
     @WebMethod
     public String send_request  (@WebParam(name = "request_body",targetNamespace="http://ship") String request_text) {
         String[] strings = request_text.split("@@jcc@@");
-        String response ="";
+        String response = "<Response><Execution><Status code=\"-1\" sqlcode=\"1\" description=\"找不到对接的系统\" /></Execution></Response>";
+
         if (strings.length != 4)
         // oa
         {
@@ -272,7 +287,53 @@ public class ship_wsc {
                         break;
                 }
 
-            } else {
+            } else  if (api_from.equals("mse")) {
+                switch (api_name.toString()) {
+                    //退料
+                    case "Warehousetransfers":
+                        try {
+                            com.mse.Application_PortType service = new com.mse.WarehousetransfersLocator().getApplication();
+                            if(request_body.indexOf("WarehousetransfersData") > 0) {
+
+                                request_body = request_body.replace("&lt;","<").replace("<WarehousetransfersData>","").replace("</WarehousetransfersData>","@twmse@");
+                                String [] strs = request_body.trim().split("@twmse@");
+                                com.mse.WarehousetransfersData[] warehousetransfers = new com.mse.WarehousetransfersData[strs.length-1];
+                                for(int i=0;i<strs.length-1;i++){
+                                    com.mse.WarehousetransfersData warehousetransfersData = new com.mse.WarehousetransfersData();
+                                    warehousetransfersData.setBarcode_no(subString(strs[i], "<barcode_no>", "</barcode_no>"));
+                                    warehousetransfersData.setBatch_no(subString(strs[i], "<batch_no>", "</batch_no>"));
+                                    warehousetransfersData.setDs_wh_id(subString(strs[i], "<ds_wh_id>", "</ds_wh_id>"));
+                                    warehousetransfersData.setMaterial_id(subString(strs[i], "<material_id>", "</material_id>"));
+                                    warehousetransfersData.setQty(subString(strs[i], "<qty>", "</qty>"));
+                                    warehousetransfersData.setWh_id(subString(strs[i], "<wh_id>", "</wh_id>"));
+                                    warehousetransfersData.setBin_id(subString(strs[i], "<bin_id>", "</bin_id>"));
+                                    warehousetransfersData.setDs_bin_id(subString(strs[i], "<ds_bin_id>", "</ds_bin_id>"));
+                                    warehousetransfersData.setMaterial_spec(subString(strs[i], "<material_spec>", "</material_spec>"));
+                                    warehousetransfersData.setUnit_num(subString(strs[i], "<unit_num>", "</unit_num>"));
+                                    warehousetransfers[i] = warehousetransfersData;
+                                }
+                                com.mse.ResultData ResultData = service.processData(warehousetransfers);
+                                response =  "<Response><Execution><Status code=\""+ResultData.getCode()+"\" sqlcode=\"1\" description=\""+ResultData.getResult()+"\" /></Execution></Response>";
+                            }
+                            else
+                            {
+                                response = "<Response><Execution><Status code=\"-1\" sqlcode=\"1\" description=\"请求xml不存在节点WarehousetransfersData\" /></Execution></Response>";
+                                return response;
+                            }
+                        } catch (javax.xml.rpc.ServiceException e1) {
+                            e1.printStackTrace();
+                            response = "<Response><Execution><Status code=\"-1\" sqlcode=\"1\" description=\"" + e1.getLocalizedMessage() + "\" /></Execution></Response>";
+                        } catch (java.rmi.RemoteException e2) {
+                            e2.printStackTrace();
+                            response = "<Response><Execution><Status code=\"-1\" sqlcode=\"1\" description=\"" + e2.getLocalizedMessage() + "\" /></Execution></Response>";
+                        }
+                        break;
+                    default:
+                        break;
+                }
+                return response;
+            }
+            else {
                 return response;
             }
         }
@@ -289,6 +350,102 @@ public class ship_wsc {
             response = "<![CDATA[" + response + "]]>";
             return response;
         }
+    /**
+     * 格式化XML输出.
+     * @param xmlStr xml文本内容.
+     * @return
+     */
+    public static byte[] outPut(String xmlStr) {
+
+        byte[] data = null;
+        StringReader stringReader = null;
+
+        try {
+
+            DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+            DocumentBuilder db = dbf.newDocumentBuilder();
+            stringReader =  new StringReader(xmlStr);
+            InputSource is = new InputSource(stringReader);
+            Document doc = db.parse(is);
+
+            data = outPut(doc);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+
+            if (stringReader != null) {
+                stringReader.close();
+            }
+
+        }
+
+        return data;
+    }
+
+    /**
+     * 格式化输出.
+     * @param node
+     * @return
+     */
+    public static byte[] outPut(Node node) {
+
+        ByteArrayOutputStream byteArrayOutputStream = null;
+        byte[] data = null;
+
+        try {
+            DOMImplementationRegistry registry = DOMImplementationRegistry.newInstance();
+            DOMImplementationLS impl = (DOMImplementationLS) registry.getDOMImplementation("XML 3.0");
+            LSSerializer serializer = impl.createLSSerializer();
+
+            DOMConfiguration domConfiguration = serializer.getDomConfig();
+            boolean isSupport = domConfiguration.canSetParameter("format-pretty-print", true);
+            if (isSupport) {
+                domConfiguration.setParameter("format-pretty-print", true);
+            }
+
+            LSOutput output = impl.createLSOutput();
+            output.setEncoding("UTF-8");
+            byteArrayOutputStream = new ByteArrayOutputStream();
+            output.setByteStream(byteArrayOutputStream);
+            serializer.write(node, output);
+            data = byteArrayOutputStream.toByteArray();
+
+        } catch (Exception e) {
+
+            e.printStackTrace();
+
+        } finally {
+
+            if (byteArrayOutputStream != null) {
+                try {
+                    byteArrayOutputStream.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+
+        }
+
+        return data;
+
+    }
+
+    /**
+     * 截取字符串str中指定字符 strStart、strEnd之间的字符串
+     *
+     * @return
+     */
+    public static String subString(String str, String strStart, String strEnd) {
+
+        /* 找出指定的2个字符在 该字符串里面的 位置 */
+        int strStartIndex = str.indexOf(strStart);
+        int strEndIndex = str.indexOf(strEnd);
+
+        /* 开始截取 */
+        String result = str.substring(strStartIndex, strEndIndex).substring(strStart.length());
+        return result;
+    }
 
 }
 
